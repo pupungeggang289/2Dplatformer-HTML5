@@ -17,6 +17,8 @@ let worldVar = {
     monster : [],
     terrain : [],
     wall : [],
+
+    gravity : 600,
 };
 
 let playerVar = {
@@ -27,4 +29,9 @@ let playerVar = {
     level : 1,
     exp : 0,
     expMax : 0,
+
+    speed : 160,
+    ySpeed : 0,
+    jump : 1,
+    jumpPower : -400,
 };
